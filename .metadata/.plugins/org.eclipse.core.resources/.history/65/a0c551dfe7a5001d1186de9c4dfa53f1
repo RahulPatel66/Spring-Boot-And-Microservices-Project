@@ -1,0 +1,11 @@
+package com.user.service.exception;
+
+import org.springframework.http.ResponseEntity;
+
+public class GlobalHandleException {
+
+	public ResponseEntity<ApiResponse> ExceptionHandler()
+	{
+		
+	}
+}

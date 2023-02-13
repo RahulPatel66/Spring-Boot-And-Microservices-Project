@@ -1,0 +1,54 @@
+package com.rating.service.impl;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.rating.service.entities.Rating;
+import com.rating.service.service.RatingService;
+
+@Service
+public class RatingServiceImpl implements RatingService{
+
+	
+	
+	@Override
+	public Rating createRating(Rating rating) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Rating> getAllRatings() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Rating ratingByUserId(String userId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Rating ratingByHotelId(String hotelId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String deleteRating(String rating) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String updateRatings(Rating rating) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	
+
+}

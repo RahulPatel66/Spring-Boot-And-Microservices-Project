@@ -1,0 +1,14 @@
+package com.user.service.exception;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+
+public class GlobalHandleException {
+
+	@org.springframework.web.bind.annotation.ExceptionHandler(ResourceNotFound.class)
+	public ResponseEntity<ApiResponse> ExceptionHandler(ResourceNotFound ex)
+	{
+		String message= ex.getMessage();
+		ApiResponse.message(message).success(false).status(HttpStatus.NOT_FOUND);
+	}
+}

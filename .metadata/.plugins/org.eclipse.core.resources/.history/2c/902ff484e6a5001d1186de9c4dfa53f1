@@ -1,0 +1,13 @@
+package com.user.service.exception;
+
+public class ResourceNotFound{
+
+	public ResourceNotFound()
+	{
+		super("resource not exit");
+	}
+	public ResourceNotFound(String message)
+	{
+		super(message);
+	}
+}

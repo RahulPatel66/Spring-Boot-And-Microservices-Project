@@ -1,0 +1,9 @@
+package com.user.service.exception;
+
+public class ApiResponse {
+
+	private String message;
+	private String success;
+	private String status;
+	
+}
